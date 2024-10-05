@@ -1,5 +1,5 @@
 from django.db import models
-
+ 
 # Create your models here.
 class Post(models.Model):
     product_id=models.IntegerField(default=0)
@@ -9,10 +9,11 @@ class Post(models.Model):
     discount=models.FloatField(max_length=50,default=0.00)
     gst=models.FloatField(max_length=50,default=0.00)
     points=models.IntegerField(default=0)
-    
 
-    
-    
+
+
+
+
 
 
 
